@@ -1,0 +1,37 @@
+{
+  "batchSizeKg": 1000,
+  "ingredients": [
+    {
+      "name": "Milho",
+      "pricePerKg": 1.2,
+      "minPercent": 0,
+      "maxPercent": 100,
+      "nutrients": {
+        "Proteina Bruta": 8,
+        "Energia Metabolizavel": 3300
+      }
+    },
+    {
+      "name": "Farelo de Soja",
+      "pricePerKg": 2.5,
+      "minPercent": 0,
+      "maxPercent": 100,
+      "nutrients": {
+        "Proteina Bruta": 45,
+        "Energia Metabolizavel": 2400
+      }
+    }
+  ],
+  "nutrientConstraints": [
+    {
+      "name": "Proteina Bruta",
+      "minValue": 18,
+      "maxValue": null
+    },
+    {
+      "name": "Energia Metabolizavel",
+      "minValue": 2800,
+      "maxValue": null
+    }
+  ]
+}
