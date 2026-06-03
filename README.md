@@ -1,19 +1,19 @@
 # FormulaRac
 
-FormulaRac e um projeto de estudo para desenvolvimento de um software de formulacao de racao, com foco inicial em aves.
+FormulaRac é um projeto de estudo para desenvolvimento de um software de formulação de ração, com foco inicial em aves.
 
-O objetivo e construir uma aplicacao capaz de cadastrar ingredientes, nutrientes, exigencias nutricionais e formulas de racao. A proposta e evoluir o sistema para calcular formulas que atendam as exigencias nutricionais pelo menor custo possivel.
+O objetivo é construir uma aplicação capaz de cadastrar ingredientes, nutrientes, exigências nutricionais e fórmulas de ração. A proposta é evoluir o sistema para calcular fórmulas que atendam às exigências nutricionais pelo menor custo possível.
 
 ## Escopo Inicial
 
-- Formulacao de racao para aves
+- Formulação de ração para aves
 - Cadastro de ingredientes
 - Cadastro de nutrientes
 - Registro de valores nutricionais dos ingredientes
-- Registro de exigencias nutricionais por tipo de ave e fase
-- Calculo manual de formulas
-- Validacao da formula em relacao as exigencias nutricionais
-- Evolucao futura para otimizacao de menor custo
+- Registro de exigências nutricionais por tipo de ave e fase
+- Cálculo manual de fórmulas
+- Validação da fórmula em relação às exigências nutricionais
+- Evolução futura para otimização de menor custo
 
 ## Tecnologias
 
@@ -24,10 +24,10 @@ O objetivo e construir uma aplicacao capaz de cadastrar ingredientes, nutrientes
 - Bean Validation
 - H2 Database para desenvolvimento e testes
 - PostgreSQL para uso futuro em banco persistente
-- ojAlgo para otimizacao matematica
+- ojAlgo para otimização matemática
 - JUnit 5 para testes
-- AssertJ para assercoes em testes
+- AssertJ para asserções em testes
 
 ## Status
 
-Projeto em desenvolvimento, criado com objetivo de aprendizado e evolucao gradual.
+Projeto em desenvolvimento, criado com objetivo de aprendizado e evolução gradual.
